@@ -6,8 +6,11 @@
   "autoload": {
     "psr-4": {
       "Tecgdcs\\": "core/",
+      "Tecgdcs\\Contracts\\": "core/contracts/",
       "Animal\\": "app/",
-      "Animal\\Models\\": "app/models"
+      "Animal\\Models\\": "app/models/",
+      "Animal\\Controllers\\":  "app/controllers",
+      "Animal\\Middlewares\\": "app/middlewares/"
     }
   },
   "authors": [
@@ -17,9 +20,14 @@
     }
   ],
   "require": {
-    "php": "^8.3",
+    "php": "^8.4",
     "laravel/pint": "^1.21",
     "illuminate/database": "^12.3",
-    "illuminate/events": "^12.3"
+    "illuminate/events": "^12.3",
+    "eftec/bladeone": "^4.18",
+    "guzzlehttp/guzzle": "^7.9"
+  },
+  "require-dev": {
+    "fakerphp/faker": "^1.24"
   }
 }

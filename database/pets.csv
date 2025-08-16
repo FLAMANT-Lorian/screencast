@@ -1,0 +1,4 @@
+name;chip;gender;age;breed;tatto;description;pet_type_id
+Rex;PUBR49;0;5;bichon;{tattoo => 'Bouche', code => '765KO7'};C'est un animal;1
+Jean;JBFH67;1;8;t-rex;{tattoo => 'Oreille droite', code => 'HTZX5'};Il est méchant;4
+LM;BHJV768;1;6;fish stick;{tattoo => 'Oreille gauche', code => 'BH7cJGHV'};C'est LM;5
